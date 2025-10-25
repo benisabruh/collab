@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody))]
 public class Jump : MonoBehaviour
@@ -26,7 +27,7 @@ public class Jump : MonoBehaviour
     void LateUpdate()
     {
         // Jump when the Jump button is pressed and we are on the ground.
-        if (Input.GetButtonDown("Jump") && (!groundCheck || groundCheck.isGrounded))
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && (!groundCheck || groundCheck.isGrounded))
         {
             rigidbody.AddForce(100 * jumpStrength * Vector3.up);
             Jumped?.Invoke();
