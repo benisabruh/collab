@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class Zoom : MonoBehaviour
 {
     new Camera camera;
-    public float defaultFOV = 60;
+    public float defaultFOV = 70;
     public float maxZoomFOV = 15;
     [Range(0, 1)]
     public float currentZoom;
