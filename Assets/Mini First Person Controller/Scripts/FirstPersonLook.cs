@@ -10,7 +10,7 @@ public class FirstPersonLook : MonoBehaviour
 
     Vector2 velocity;
     Vector2 frameVelocity;
-
+    private Vector3 initialRotation;
 
     void Reset()
     {
@@ -20,6 +20,11 @@ public class FirstPersonLook : MonoBehaviour
 
     void Start()
     {
+        // Store initial rotation
+        initialRotation = new Vector3(transform.localEulerAngles.x, character.localEulerAngles.y, 0);
+        velocity.x = initialRotation.y;
+        velocity.y = -initialRotation.x;
+        
         // Lock the mouse cursor to the game screen.
         Cursor.lockState = CursorLockMode.Locked;
     }
