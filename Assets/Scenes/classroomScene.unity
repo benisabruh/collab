@@ -3820,7 +3820,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 576554233367485300, guid: 413a66411501345698b07e97169e4324, type: 3}
       propertyPath: field of view
-      value: 39.59748
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 596230256967644614, guid: 413a66411501345698b07e97169e4324, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3869,6 +3869,10 @@ PrefabInstance:
     - target: {fileID: 707241361017917426, guid: 413a66411501345698b07e97169e4324, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 710915855598591932, guid: 413a66411501345698b07e97169e4324, type: 3}
+      propertyPath: defaultFOV
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 711016738803354122, guid: 413a66411501345698b07e97169e4324, type: 3}
       propertyPath: m_Enabled
