@@ -8122,6 +8122,7 @@ GameObject:
   - component: {fileID: 2063471106}
   - component: {fileID: 2063471105}
   - component: {fileID: 2063471104}
+  - component: {fileID: 2063471107}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -8149,7 +8150,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cmon, we're gonna be late!
+  m_text: '"Cmon, we''re gonna be late!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -8158,8 +8159,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8214,7 +8215,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 9.066086, y: 0, z: 9.608641, w: 4.3023987}
+  m_margin: {x: 9.038537, y: 0.10830712, z: 9.608641, w: 4.3023987}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -8278,7 +8279,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063471103}
-  m_LocalRotation: {x: -0, y: 0.9738383, z: -0, w: 0.22724207}
+  m_LocalRotation: {x: 0.0056758057, y: 0.8357879, z: -0.008641453, w: 0.54895514}
   m_LocalPosition: {x: 0, y: 0, z: -3.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8287,9 +8288,29 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 153.73, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.21, y: -2.187}
+  m_AnchoredPosition: {x: 8.301, y: -2.146}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1183024399 &2063471107
+LookAtConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063471103}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Weight: 1
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationOffset: {x: 0, y: 180, z: 0}
+  m_Roll: 0
+  m_WorldUpObject: {fileID: 0}
+  m_UseUpObject: 0
+  m_Active: 1
+  m_IsLocked: 0
+  m_Sources:
+  - sourceTransform: {fileID: 4521797922308010793}
+    weight: 1
 --- !u!1001 &2066170930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8538,6 +8559,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 484457287}
   m_SourcePrefab: {fileID: 100100000, guid: 413a66411501345698b07e97169e4324, type: 3}
+--- !u!4 &4521797922308010793 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 596230256967644614, guid: 413a66411501345698b07e97169e4324, type: 3}
+  m_PrefabInstance: {fileID: 4521797922308010792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7895995078034902976
 PrefabInstance:
   m_ObjectHideFlags: 0
