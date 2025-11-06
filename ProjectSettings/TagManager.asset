@@ -6,6 +6,7 @@ TagManager:
   tags:
   - busDoor
   - houseDoor
+  - bus2school
   layers:
   - Default
   - TransparentFX

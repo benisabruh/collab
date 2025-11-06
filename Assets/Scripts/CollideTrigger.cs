@@ -23,9 +23,15 @@ public class CollideTrigger : MonoBehaviour
             // This will do the same thing.
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        if(other.tag == "houseDoor")
+        if (other.tag == "houseDoor")
         {
             SceneManager.LoadScene("Outside");
+            Debug.Log(SceneManager.GetActiveScene().name);
+        }
+
+     if(other.tag == "bus2school")
+        {
+            SceneManager.LoadScene("classroomScene");
             Debug.Log(SceneManager.GetActiveScene().name);
         }
     }
