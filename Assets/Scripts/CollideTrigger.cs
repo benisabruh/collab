@@ -8,31 +8,29 @@ using UnityEngine.SceneManagement;
 
 public class CollideTrigger : MonoBehaviour
 {
+    [SerializeField] private GameObject restart; 
     private void OnTriggerEnter(Collider other)
     {
         // Check if collision is made with the Drop, which is tagged as "Finish"
         // You can change the tag and manually change this accordingly.
         if (other.tag == "busDoor")
         {
-            // Print out the current scene's name
-            // Change scene
             SceneManager.LoadScene("insideBus");
-            Debug.Log(SceneManager.GetActiveScene().name);
-
-
-            // This will do the same thing.
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         if (other.tag == "houseDoor")
         {
             SceneManager.LoadScene("Outside");
-            Debug.Log(SceneManager.GetActiveScene().name);
         }
 
-     if(other.tag == "bus2school")
+        if (other.tag == "bus2school")
         {
             SceneManager.LoadScene("classroomScene");
-            Debug.Log(SceneManager.GetActiveScene().name);
+        }
+        if (other.tag == "classroomDoor")
+        {
+            PlayerPrefs.SetInt("showRestart", 1);
+            PlayerPrefs.Save();
+            SceneManager.LoadScene("house");
         }
     }
 }

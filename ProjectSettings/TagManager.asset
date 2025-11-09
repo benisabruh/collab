@@ -8,6 +8,8 @@ TagManager:
   - houseDoor
   - bus2school
   - backpack
+  - classroomDoor
+  - restart
   layers:
   - Default
   - TransparentFX

@@ -165,6 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3a114051d2d41ad81e80dd3ca5c52b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollideTrigger
+  restart: {fileID: 0}
 --- !u!1001 &6543359473547932617
 PrefabInstance:
   m_ObjectHideFlags: 0
