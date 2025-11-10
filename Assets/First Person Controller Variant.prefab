@@ -166,6 +166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollideTrigger
   restart: {fileID: 0}
+  equipAudioSource: {fileID: 0}
+  equipClip: {fileID: 8300000, guid: fbb006c21463843898cd76f3d2b94abc, type: 3}
 --- !u!1001 &6543359473547932617
 PrefabInstance:
   m_ObjectHideFlags: 0
