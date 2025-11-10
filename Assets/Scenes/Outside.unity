@@ -2099,6 +2099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3a114051d2d41ad81e80dd3ca5c52b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollideTrigger
+  restart: {fileID: 0}
 --- !u!1001 &494979754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4651,6 +4652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3a114051d2d41ad81e80dd3ca5c52b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollideTrigger
+  restart: {fileID: 0}
 --- !u!1001 &1101645511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8658,11 +8660,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9098813375536104646, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
       propertyPath: m_fontSize
-      value: 25
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 9098813375536104646, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 25
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
