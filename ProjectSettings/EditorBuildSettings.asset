@@ -6,17 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Outside.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
     path: Assets/Scenes/house.unity
     guid: e7595819744cd4a56a19001fb30594e6
   - enabled: 1
-    path: Assets/Scenes/classroomScene.unity
-    guid: 5a965d3f7ef295e418f6b938a64046af
+    path: Assets/Scenes/Outside.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/insideBus.unity
     guid: 63fcb8a4a0820497fa9599945670e00f
+  - enabled: 1
+    path: Assets/Scenes/classroomScene.unity
+    guid: 5a965d3f7ef295e418f6b938a64046af
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

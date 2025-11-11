@@ -455,17 +455,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8813503329187812235, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813503329187812235, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813503329187812235, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -61
+      objectReference: {fileID: 0}
     - target: {fileID: 9098813375536104646, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
       propertyPath: m_text
       value: 'Objective: Get ready for school.'
       objectReference: {fileID: 0}
     - target: {fileID: 9098813375536104646, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
       propertyPath: m_fontSize
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 9098813375536104646, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

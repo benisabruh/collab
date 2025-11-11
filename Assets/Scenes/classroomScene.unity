@@ -3859,7 +3859,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Hello class welcome back..."'
+  m_text: '"Hello class welcome back... if you want to, leave the classroom to reset
+    the cycle." '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3988,7 +3989,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827674077}
-  m_LocalRotation: {x: 0.023808392, y: -0.9391439, z: 0.06651008, w: 0.3361822}
+  m_LocalRotation: {x: 0.027611785, y: -0.93833095, z: 0.07713508, w: 0.3358912}
   m_LocalPosition: {x: 0, y: 0, z: 4.394}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3997,7 +3998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.561, y: 1.548}
+  m_AnchoredPosition: {x: 9.561, y: 1.8}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1854026799
@@ -4757,17 +4758,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8813503329187812235, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813503329187812235, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813503329187812235, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -61
+      objectReference: {fileID: 0}
     - target: {fileID: 9098813375536104646, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
       propertyPath: m_text
       value: 'Objective: School...'
       objectReference: {fileID: 0}
     - target: {fileID: 9098813375536104646, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
       propertyPath: m_fontSize
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 9098813375536104646, guid: a100f8ecde876477e93f877dcd0700fd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 50
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
